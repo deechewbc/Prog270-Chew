@@ -5,7 +5,7 @@ Prog270-Chew
 Places I have travelled:
 * Dubai
 * Tanzania
-	*Safari
+	*Safari in the desert
 * Israel
 * Jordan
 * Egypt
