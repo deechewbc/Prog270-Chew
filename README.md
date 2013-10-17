@@ -2,8 +2,9 @@
 Prog270-Chew
 ============
 
-Places I have travelled:
+I have had the opportunity to travel many places around the world.  Some of the places are the following:
 * Dubai
+* Nigeria  
 * Tanzania
 	*Safari in the desert
 * Israel
