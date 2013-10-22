@@ -2,7 +2,7 @@
 Prog270-Chew
 ============
 
-Why be a Mentor:
+Why is it important to be a Mentor:
 * Students need a positive role model  
 * Students need to be educated about going to places unknown to them
 
