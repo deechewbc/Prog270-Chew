@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,6 +9,10 @@
     <link rel="shortcut icon" href="../../assets/ico/favicon.png">
 
     <title>Starter Template for Bootstrap</title>
+=======
+Prog270-Chew
+============
+>>>>>>> afb8034426f927b142f141530e2461f8be49dd7e
 
     <!-- Bootstrap core CSS -->
     <link href="../../dist/css/bootstrap.css" rel="stylesheet">
