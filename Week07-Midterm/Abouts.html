@@ -13,6 +13,10 @@
 		<!-- Latest compiled and minified JavaScript - Move to bottom of body element -->
 		<script src="//code.jquery.com/jquery.js"></script>
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+		<script src="angular.js"></script>
+		<script src="angular-resource.js"></script>
+		<script src="index.js"></script>
+		<script src="MongoData.js"></script>
 	</head>
 	<body>
 		<div class="navbar navbar-inverse navbar-fixed-top">
@@ -30,10 +34,10 @@
 						<li>
 							<a href="index.html">Home</a>
 						</li>
-						<li>
+						<li class="active">
 							<a href="About.html">About</a>
 						</li>
-						<li class="active">
+						<li>
 							<a href="Contacts.html">Contact</a>
 						</li>
 					</ul>
@@ -41,32 +45,26 @@
 			</div>
 		</div>
 
-		<div class="container">
-
+	<div class="container">
 			<div class="starter-template">
-				<h1>About Elvenware</h1>
-				<p class="lead">
-					<img src="http://www.gravatar.com/avatar/b7b972e6d8e9d877abaee3f91b74b4a8.png" alt="Charlie Calvert" />
-				Best Ways to Contact Dee
-========================
 
-I had the privilege to brought up by my father and brothers.  While most girls were learning how to cook, i learn how to play football and basketball.
+				<h1>Animate Dee 's Bootstrap</h1>
 
-If you want to contact me   
-1.  tennis  
-2.  football  
-3.  soccer  
-
-Now let me list the best ways to contact me.  If it is Sunday I'm watching football in front of my television.  Since I'm in Seattle **Lets support the Seahawks**
-
-*Russell Wilson*
-
-<p><img src="http://www2.pictures.zimbio.com/gi/Tampa+Bay+Buccaneers+v+Seattle+Seahawks+_RXjv7oGt_ut.jpg" alt=Araguanei" title" /></p>
-
-
-My favorite sport to watch is Tennis. I always try to support American tennis players.  Currently the number one American tennis player is Serena Williams.
-
-<p><img src="http://cdn.cnwimg.com/wp-content/uploads/2009/10/serena-williams-1024x798.jpg" alt=Araguanei" title" /></p>
+				<div id='drawHere01' class='draw-target'></div>
+				<div id='drawHere02' class='draw-target'></div>
+				<div id="monogoData" ng-controller="MyController">
+					<p>This project retrieves a small amount of JSON from
+					a node server.</p>
+					<p>Rows in DB: {{presidentsLength}}</p>
+					<ul>
+						<li ng-repeat="president in presidents">
+							<p>{{president.getPresidentName()}}<br/>
+								TermStart: {{president.getTermStart()}}<br/>
+								TermEnd: {{president.getTermEnd()}}</p>
+						</li>
+					</ul>
+					<div ng-bind-html-unsafe="hint"></div>
+				</div>
 			</div>
 
 		</div><!-- /.container -->
