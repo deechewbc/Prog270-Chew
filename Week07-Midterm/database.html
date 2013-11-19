@@ -16,7 +16,7 @@
 		<script src="angular.js"></script>
 		<script src="angular-resource.js"></script>
 		<script src="index.js"></script>
-		<script src="MongoData.js"></script>
+		<script src="MongoData01.js"></script>
 	</head>
 	<body>
 		<div class="navbar navbar-inverse navbar-fixed-top">
@@ -58,9 +58,9 @@
  <p>Rows in DB: {{presidentsLength}}</p>
  <ul>
  <li ng-repeat="president in presidents">
- <p>{{president.getPresidentName()}}<br/>
- TermStart: {{president.getTermStart()}}<br/>
- TermEnd: {{president.getTermEnd()}}</p>
+ <p>{{president.getfirstName()}}<br/>
+ TermStart: {{president.getlastName()}}<br/>
+ TermEnd: {{president.getage()}}</p>
  </li>
  </ul>
  <div ng-bind-html-unsafe="hint"></div>
