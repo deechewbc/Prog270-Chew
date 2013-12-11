@@ -1,0 +1,21 @@
+Get the 3 files to your directory:
+	SendtoS3.js
+	package.json
+	config.json
+	
+Modify and change SendtoS3
+	Ensure config.json does not have paths before it.  s/b config.json
+	bucketname -- use dcprog270-class
+	scroll to bottom.  have index.html, about and pictures and css
+
+
+
+	Enter keys in config.json  (from aws.amazon.  IN security credentials.
+	
+	Go to command prompt of your directory..eg. prog270-week06-assignment01 (copy address)  in the command prompt
+	type npm install
+	type node sendtoS3.js
+	
+	
+	
+	
